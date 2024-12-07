@@ -1,0 +1,23 @@
+{
+  "name": "@preview/vitejs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "stylex-ui-components": "^0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "vite-plugin-stylex": "^0.8.3"
+  },
+  "overrides": {
+    "vite-plugin-stylex": {
+      "@stylexjs/babel-plugin": "0.8.3"
+    }
+  }
+}
