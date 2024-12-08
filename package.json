@@ -1,12 +1,12 @@
 {
-  "name": "stylex-ui-monorepo",
+  "name": "stylex-components-monorepo",
   "version": "0.0.0",
-  "description": "Stylex components library",
+  "description": "Stylex Components is a component library that built based on Facebook UI, using react-aria and Stylex",
   "private": true,
   "main": "index.ts",
   "license": "MIT",
   "workspaces": [
-    "packages/stylex-ui-components",
+    "packages/stylex-react-components",
     "packages/*/*"
   ],
   "dependencies": {

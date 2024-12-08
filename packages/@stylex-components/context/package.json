@@ -1,0 +1,14 @@
+{
+  "name": "@stylex-components/context",
+  "version": "0.0.0",
+  "type": "module",
+  "source": "index.ts",
+  "main": "index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

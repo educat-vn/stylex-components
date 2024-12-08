@@ -8,6 +8,11 @@
     "dist",
     "src"
   ],
+  "dependencies": {
+    "@stylex-components/context": "^0.0.0",
+    "@stylex-components/hooks": "^0.0.0",
+    "@stylex-components/utils": "^0.0.0"
+  },
   "publishConfig": {
     "access": "public"
   }

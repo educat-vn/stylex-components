@@ -7,8 +7,16 @@ import {
     BaseInput,
     BaseTextInput,
     FormTextInput,
-    BaseFocusRing
-} from 'stylex-ui-components';
+    BaseFocusRing,
+    Button,
+    BaseButton,
+    WebPressable,
+    PressableText,
+    UserAgent
+} from 'stylex-react-components';
+
+console.log('UserAgent.isBrowser("Safari")', UserAgent.isBrowser("Safari"))
+console.log('UserAgent.isBrowser("Chrome")', UserAgent.isBrowser("Chrome"))
 
 function App() {
     const [count, setCount] = useState(0)
@@ -60,6 +68,33 @@ function App() {
                  // validationState='ERROR'
                  />
             </div>
+            <br/>
+            <br/>
+            <br/>
+            <Button onPress={() => {
+                console.log('clicked')
+            }}>
+                <span>This is a Stylex Button</span>
+            </Button>
+
+            <br/>
+            <br/>
+            <br/>
+            <WebPressable onPress={(e) => console.log('WebPressable', e)}>
+                WebPressable
+            </WebPressable>
+            <br/>
+            <br/>
+            <br/>
+            <PressableText onPress={(e) => console.log('PressableText', e)}>
+                PressableText
+            </PressableText>
+            <br/>
+            <br/>
+            <br/>
+            <BaseButton  onClick={(e) => console.log('BaseButton', e)}>
+                BaseButton
+            </BaseButton>
         </>
     )
 }

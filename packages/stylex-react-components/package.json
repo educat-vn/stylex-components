@@ -1,5 +1,5 @@
 {
-  "name": "stylex-ui-components",
+  "name": "stylex-react-components",
   "version": "0.0.0",
   "type": "module",
   "source": "index.ts",
@@ -10,9 +10,11 @@
   ],
   "dependencies": {
     "@stylex-components/button": "^0.0.0",
+    "@stylex-components/context": "^0.0.0",
     "@stylex-components/focus": "^0.0.0",
     "@stylex-components/input": "^0.0.0",
-    "@stylex-components/utils": "^0.0.0"
+    "@stylex-components/utils": "^0.0.0",
+    "@stylex-components/useragent": "^0.0.0"
   },
   "publishConfig": {
     "access": "public"
